@@ -4,7 +4,7 @@ import { triangle, ellipse, square } from 'ionicons/icons';
 import { IonTabs, IonTabBar, IonTabButton, IonIcon, IonLabel } from '@ionic/angular/standalone';
 
 @Component({
-  selector: 'app-tabs',
+  selector: 'jym-tabs',
   templateUrl: 'tabs.page.html',
   styleUrls: ['tabs.page.scss'],
   imports: [IonTabs, IonTabBar, IonTabButton, IonIcon, IonLabel],
