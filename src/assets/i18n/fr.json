@@ -1,0 +1,39 @@
+{
+  "auth": {
+    "createAccount": "Créer un compte",
+    "email": "Email",
+    "emailRequired": "L'email est requis",
+    "emailInvalid": "Veuillez entrer un email valide",
+    "help": "Aide",
+    "login": "Connexion",
+    "logout": "Déconnexion",
+    "password": "Mot de passe",
+    "passwordRequired": "Le mot de passe est requis",
+    "passwordMinLength": "Le mot de passe doit contenir au moins 6 caractères",
+    "or": "ou",
+    "register": "S'inscrire",
+    "reset": "Réinitialiser",
+    "resetPassword": "Réinitialiser le mot de passe",
+    "resetPasswordDescription": "Entrez votre adresse email et nous vous enverrons un lien pour réinitialiser votre mot de passe.",
+    "resetPasswordSuccess": "Un email de réinitialisation a été envoyé à votre adresse email.",
+    "signInWithApple": "Se connecter avec Apple",
+    "signInWithGoogle": "Se connecter avec Google",
+    "signUpWithApple": "S'inscrire avec Apple",
+    "signUpWithGoogle": "S'inscrire avec Google"
+  },
+  "carousel": {
+    "slide1": {
+      "alt": "Votre journal de gym personnel",
+      "title": "S'entraîner. Suivre. Évoluer."
+    },
+    "slide2": {
+      "alt": "Design et simplicité",
+      "title": "Tout ce dont vous avez besoin, et rien de plus."
+    },
+    "slide3": {
+      "alt": "Graphiques",
+      "title": "Voyez à quel point vous avez progressé."
+    }
+  }
+}
+

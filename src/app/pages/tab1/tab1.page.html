@@ -12,6 +12,17 @@
   </ion-header>
 
   <div class="ion-padding">
-    <app-explore-container name="Tab 1 page"></app-explore-container>
+    <div class="flex flex-col gap-4">
+      <p>toto</p>
+      
+      <jym-button
+        mode="primary"
+        icon="chevron-forward-outline"
+        (click)="logout()"
+        [attr.aria-label]="'auth.logout' | translate"
+      >
+        {{ 'auth.logout' | translate }}
+      </jym-button>
+    </div>
   </div>
 </ion-content>

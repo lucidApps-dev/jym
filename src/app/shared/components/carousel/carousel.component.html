@@ -1,0 +1,36 @@
+<div class="w-full h-full relative overflow-hidden bg-default flex flex-col min-h-0" [style.height]="height()">
+  
+  <!-- Progress Bar Indicator -->
+  <div class="absolute top-0 left-0 right-0 flex w-full h-1 z-10 pt-[env(safe-area-inset-top)] gap-1 px-6">
+    @for (image of images(); track $index) {
+      <div
+        class="flex-1 h-full cursor-pointer transition-all duration-300 rounded-sm hover:bg-white/50"
+        [class.bg-primary]="currentSlideIndex() === $index"
+        [class.bg-gray-300]="currentSlideIndex() !== $index"
+        [class.shadow-[0_0_8px_rgba(255,255,255,0.5)]="currentSlideIndex() === $index"
+        (click)="goToSlide($index)"
+        [attr.aria-label]="'Aller à la slide ' + ($index + 1)"
+      ></div>
+    }
+  </div>
+
+  <!-- Slides Container -->
+  <div class="w-full flex-1 relative pt-2 min-h-0 overflow-hidden">
+    <div
+      class="flex w-full h-full transition-transform duration-500 ease-in-out will-change-transform"
+      [style.transform]="'translateX(-' + (currentSlideIndex() * 100) + '%)'"
+    >
+      @for (image of images(); track $index) {
+        <div class="min-w-full w-full h-full flex flex-col flex-shrink-0 min-h-0">
+          <div class="flex-1 min-h-0 overflow-hidden">
+            <img [src]="image.url" [alt]="image.alt" class="w-full h-full object-cover block" />
+          </div>
+          <div class="w-full text-center py-4 px-8 flex-shrink-0 pb-[calc(1rem+env(safe-area-inset-bottom))]">
+            <h4 class="text-lg font-bold m-0">{{ image.title }}</h4>
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+</div>
+

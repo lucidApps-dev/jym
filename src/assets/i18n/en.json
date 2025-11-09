@@ -1,0 +1,39 @@
+{
+  "auth": {
+    "createAccount": "Create an account",
+    "email": "Email",
+    "emailRequired": "Email is required",
+    "emailInvalid": "Please enter a valid email",
+    "help": "Help",
+    "login": "Sign in",
+    "logout": "Sign out",
+    "password": "Password",
+    "passwordRequired": "Password is required",
+    "passwordMinLength": "Password must contain at least 6 characters",
+    "or": "or",
+    "register": "Sign up",
+    "reset": "Reset",
+    "resetPassword": "Reset password",
+    "resetPasswordDescription": "Enter your email address and we'll send you a link to reset your password.",
+    "resetPasswordSuccess": "A password reset email has been sent to your email address.",
+    "signInWithApple": "Sign in with Apple",
+    "signInWithGoogle": "Sign in with Google",
+    "signUpWithApple": "Sign up with Apple",
+    "signUpWithGoogle": "Sign up with Google"
+  },
+  "carousel": {
+    "slide1": {
+      "alt": "Your personal gym journal",
+      "title": "Train. Track. Evolve."
+    },
+    "slide2": {
+      "alt": "Design and simplicity",
+      "title": "Everything you need, and nothing more."
+    },
+    "slide3": {
+      "alt": "Graphs and charts",
+      "title": "See how far you've come."
+    }
+  }
+}
+
